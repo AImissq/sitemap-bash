@@ -11,7 +11,7 @@ if [ "$1" != "" ]; then
     echo "Crawling " $1
 else
     echo "usage: ./sitemapmaker URL"
-    echo "     where URL is the full URL to the web site you want to create a map for.
+    echo "     where URL is the full URL to the web site you want to create a map for."
     echo "example: $ ./sitemapmaker https://www.attorney.bot"
     exit 1
 fi
@@ -28,7 +28,7 @@ header='<?xml version="1.0" encoding="UTF-8"?><urlset
 
 echo $header > sitemap.xml
 echo "<!--" >> sitemap.xml
-echo "	Created by bash script http://github.com/tjdaley/sitemapmaker " >> sitemap.xml
+echo "	Created by bash script http://github.com/tjdaley/sitemap-bash " >> sitemap.xml
 echo "-->" >> sitemap.xml
 while read p; do
   case "$p" in
