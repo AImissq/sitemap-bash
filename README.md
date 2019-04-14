@@ -10,4 +10,22 @@ My objection to the two sites that I tried were:
 2. Their resulting XML included attributes, e.g. <priority> that Google ignores. Why submit extra data?
 3. Eh, why are they free? This isn't so complicated that I need to have yet another site cookie-ing me up.
 
-So here's **@barkeep*'s script. I hope it's as useful to you as it has been for me.
+So here's **@barkeep**'s script. I hope it's as useful to you as it has been for me.
+
+# Installation and Usage
+
+## Installation
+
+```bash
+# Download and install from GitHub
+$ git http://github.com/tjdaley/sitemap-bash
+
+# Make the script executable
+$ cd sitemap-bash
+$ chmod +x sitemapmaker.sh
+```
+## Usage
+
+```bash
+$ ./sitemapmaker https://www.example.com
+```
