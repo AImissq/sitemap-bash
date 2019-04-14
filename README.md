@@ -7,7 +7,7 @@ There are a number of browser-based systems out there that are free and his arti
 My objection to the two sites that I tried were:
 
 1. They wouldn't generate information for more than 50 links in their free version.
-2. Their resulting XML included attributes, e.g. <priority> that Google ignores. Why submit extra data?
+2. Their resulting XML included attributes, e.g. &lt;priority&gt; that Google ignores. Why submit extra data?
 3. Eh, why are they free? This isn't so complicated that I need to have yet another site cookie-ing me up.
 
 So here's **@barkeep**'s script. I hope it's as useful to you as it has been for me.
