@@ -12,6 +12,15 @@ My objection to the two sites that I tried were:
 
 So here's **@barkeep**'s script. I hope it's as useful to you as it has been for me.
 
+# Limitations
+
+This script works well for static web sites or any site where <a> tags define nagivation structure.
+HOWEVER, if you're using one of the router-based frameworks where navigation is controlled by
+changes to the hashvalue in the address bar of the browser, this script won't generate much of a site map for you.
+  
+I'm using it with a [Pelican](https://docs.getpelican.com/en/stable/index.html) static web site and I'm very
+pleased with the results. My [Rivets](http://rivetsjs.com/)-based sites create nearly empty sitemaps.
+
 # Installation and Usage
 
 ## Installation
